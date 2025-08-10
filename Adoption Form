@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration Form - Adopting Center</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <style>
+    body {
+      background-color: #FFC1CC;
+    }
+
+    h3 {
+      color: #DE5D83;
+      font-family: 'Georgia';
+      font-size: 30px;
+    }
+
+    .info-box {
+      margin-bottom: 30px;
+      color: #A94064
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <form>
+      <fieldset class="border p-4 rounded">
+        <legend class="w-auto">Registration Form</legend>
+        <p>Please fill in the form with the necessary information:</p>
+
+        <div class="form-group">
+          <label>First Name</label>
+          <input type="text" name="name" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+          <label>Last Name</label>
+          <input type="text" name="surname" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+          <label>Gender</label><br>
+          <input type="radio" name="gender" value="male"> Male
+          <input type="radio" name="gender" value="female"> Female
+          <input type="radio" name="gender" value="prefer-not"> Prefer Not to Say
+        </div>
+
+        <div class="form-group">
+          <label>D.O.B</label>
+          <input type="date" name="dob" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="tel" name="phone" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+          <label>Country</label>
+          <select class="form-control">
+            <option value="country">Country</option>
+            <option value="uae">UAE</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="india">India</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Location</label><br>
+          <input type="checkbox" name="location" value="in-uae"> In UAE
+          <input type="checkbox" name="location" value="out-uae"> Outside UAE
+        </div>
+
+        <div class="form-group">
+          <label>Pet Preference</label>
+          <select class="form-control">
+            <option value="pet">Select Pet</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="bird">Bird</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        
+        <div class="text-center mb-3 mt-4">
+          <button type="submit" class="btn btn-danger btn-lg">
+            🐶 Submit! 🐱 ✨
+          </button>
+        </div>
+
+      </fieldset>
+    </form>
+  </div>
+</body>
+</html>
