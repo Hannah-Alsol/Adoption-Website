@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adopting Center</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+  <style>
+    body {
+      background-color: #FFC1CC;
+    }
+
+    h3 {
+      color: #DE5D83;
+      font-family: 'Georgia';
+      font-size: 30px;
+    }
+
+    .info-box {
+      margin-bottom: 30px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body style="text-align: center;">
+ 
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-9 text-center">
+          <h1 style="color: #FC6C85; font-size: 40px; font-family: 'Times New Roman Bold';">
+            Adopt Your Furry Friend
+          </h1>
+          <p style="color: #A94064; font-size: 20px; font-family: 'Georgia';">
+            Find your new best friend today!
+          </p>
+        </div>
+        <div class="col-md-3 text-md-right text-center">
+          <img src="c:\Users\hanna\OneDrive\Desktop\After class projects\Pet logo.jpg" 
+               alt="Adopting Center Logo" 
+               class="img-fluid rounded-circle"
+               style="width: 90px; height: 90px; box-shadow: 0 4px 8px rgba(255, 132, 179, 0.829);">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row mb-4 align-items-start">
+      
+    
+      <div class="col-lg-2 text-center">
+        <img src="c:\Users\hanna\OneDrive\Desktop\After class projects\kitty.jfif" 
+             alt="Cute Kitty" 
+             class="img-fluid mb-3"
+             style="max-width: 150px; border-radius: 15px; box-shadow: 0 4px 8px rgba(255, 132, 179, 0.829);">
+      </div>
+
+      <div class="col-lg-2 info-box text-left">
+        <h3>Benefits</h3>
+        <p>Adopting a pet can improve your mental health, bring companionship, and add joyful structure to your day.</p>
+      </div>
+
+      
+      <div class="col-lg-3 info-box text-left">
+        <h3>Adoption Process</h3>
+        <p>Fill out a form, provide ID, pay a fee, and meet your future furry friend — it's that easy! Our Adoption process takes very little steps which not only doesn't take much time for you, but also shortens the delay for you to meet your new furry friend!! </p>
+      </div>
+
+   
+      <div class="col-lg-3 info-box text-left">
+        <h3>Available Pets</h3>
+        <p>Dogs, cats, rabbits, and more — each one ready to love and be loved. Come meet your match! Our Adoption Center has all sort of pets to your liking, all you need to do is find the one that calls to you, they will be happy to have you as their new owner!</p>
+      </div>
+
+      
+      <div class="col-lg-2 text-center">
+        <img src="c:\Users\hanna\OneDrive\Desktop\After class projects\puppy.jpg" 
+             alt="Cute Puppy" 
+             class="img-fluid mb-3"
+             style="max-width: 150px; border-radius: 15px; box-shadow: 0 4px 8px rgba(255, 132, 179, 0.829);">
+      </div>
+    </div>
+
+    
+    <div class="row">
+      <div class="col-md-4 offset-md-1 info-box text-left">
+        <h3>Necessities</h3>
+        <ul>
+          <li>Food and Water Bowls</li>
+          <li>Leash and Collar</li>
+          <li>Bed or Crate</li>
+          <li>Toys and Treats</li>
+          <li>Grooming Supplies</li>
+          <li>Most Importantly, love for your Furry Buddy</li>
+        </ul>
+      </div>
+      <div class="col-md-4 offset-md-2 info-box">
+        <h3>Contact Us</h3>
+        <p>If you have any questions or need assistance, feel free to contact us at <strong>971******</strong> or email us at <strong>@adoptingcenter.com</strong>. We are here to help you find your perfect pet!</p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="text-center mb-4">
+    <a href="Form%20for%20Adoption.html" class="btn btn-danger btn-lg">
+      🐶 Adopt Now! 🐱 ✨
+    </a>
+  </div>
+
+  
+  <footer>
+    <div class="container text-center">
+      <p style="color: #A94064; font-size: 16px; font-family: 'Georgia';">
+        &copy; 2023 Adopting Center. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
